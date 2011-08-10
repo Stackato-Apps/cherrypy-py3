@@ -1,3 +1,5 @@
+name: cherrypy-py3
+
 framework:
   type: python
   runtime: python32

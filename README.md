@@ -6,4 +6,4 @@
 
 ## Deploying to Stackato
 
-    stackato push --runtime python32 cherrypy-py3
+    stackato push -n
