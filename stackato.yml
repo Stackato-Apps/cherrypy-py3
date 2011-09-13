@@ -1,6 +1,7 @@
 name: cherrypy-py3
 
+processes:
+  web: python3.2 app.py
+
 framework:
-  type: python
   runtime: python32
-  startcmd: python3.2 app.py
