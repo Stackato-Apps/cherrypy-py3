@@ -4,4 +4,5 @@ processes:
   web: python3.2 app.py
 
 framework:
+  type: python
   runtime: python32
