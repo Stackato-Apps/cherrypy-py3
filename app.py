@@ -10,8 +10,8 @@ class HelloWorld:
 
 
 if __name__ == '__main__':
-    port = int(os.getenv('VCAP_APP_PORT', '8000'))
-    host = os.getenv('VCAP_APP_HOST', '0.0.0.0')
+    port = int(os.getenv('PORT', '8000'))
+    host = os.getenv('HOST', '0.0.0.0')
     cherrypy.quickstart(
         HelloWorld(),
         config={

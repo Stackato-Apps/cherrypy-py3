@@ -1,2 +1,5 @@
 applications:
 - name: cherrypy-py3
+  buildpack: https://github.com/cloudfoundry/python-buildpack
+  memory: 32M
+  stack: cflinuxfs2
