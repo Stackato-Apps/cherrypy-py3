@@ -7,6 +7,6 @@ This is a Hello World app demonstrating a Python 3 based web application using
 
     python3 app.py
 
-## Deploying to Stackato
+## Deploying to HPE Helion Stackato
 
     stackato push -n
